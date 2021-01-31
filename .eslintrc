@@ -1,0 +1,28 @@
+{
+  "extends": [
+    "plugin:flowtype/recommended",
+    "react-app",
+    "airbnb",
+    "plugin:prettier/recommended",
+    "prettier/flowtype",
+    "prettier/react"
+  ],
+  "plugins": [
+    "flowtype",
+    "jest",
+    "prettier",
+    "react-hooks"
+  ],
+  "env": {
+    "jest/globals": true,
+    "browser": true
+  },
+  "rules": {
+    "react/require-default-props": 0,
+    "react/default-props-match-prop-types": 0,
+    "react/react-in-jsx-scope": 0,
+    "import/prefer-default-export": 0,
+    "react-hooks/rules-of-hooks": 0,
+    "react-hooks/exhaustive-deps": 0
+  }
+}
