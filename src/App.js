@@ -1,7 +1,9 @@
+/* @flow */
+import { type Component } from './types';
 import logo from './logo.svg';
 import './App.css';
 
-function App() {
+const App = (): Component => {
   return (
     <div className="App">
       <header className="App-header">
