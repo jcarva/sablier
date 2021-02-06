@@ -1,14 +1,17 @@
+/* @flow */
 import { Outlet } from 'react-router-dom';
+import { LayoutWrapper, ContentWrapper } from './common';
 import Header from '../components/navigation/header/Header';
+import { type Component } from '../types';
 
-const Unauthenticated = () => {
+const Unauthenticated = (): Component => {
   return (
-    <div>
+    <LayoutWrapper>
       <Header />
-      <div>
+      <ContentWrapper>
         <Outlet />
-      </div>
-    </div>
+      </ContentWrapper>
+    </LayoutWrapper>
   );
 };
 

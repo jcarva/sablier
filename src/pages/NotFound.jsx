@@ -1,11 +1,12 @@
 /* @flow */
-import { type Component } from '../../types';
-import logo from '../../assets/logo.svg';
+import { type Component } from '../types';
+import logo from '../assets/logo.svg';
+import { PageWrapper } from './common';
 
 const NotFound = (): Component => {
   return (
-    <div className='App'>
-      <header className='App-header'>
+    <PageWrapper>
+      <div className='page-content'>
         <img src={logo} className='App-logo' alt='logo' />
         <a
           className='App-link'
@@ -13,10 +14,10 @@ const NotFound = (): Component => {
           target='_blank'
           rel='noopener noreferrer'
         >
-          404
+          NotFound
         </a>
-      </header>
-    </div>
+      </div>
+    </PageWrapper>
   );
 };
 

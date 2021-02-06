@@ -1,11 +1,12 @@
 /* @flow */
-import { type Component } from '../../types';
-import logo from '../../assets/logo.svg';
+import { PageWrapper } from './common';
+import { type Component } from '../types';
+import logo from '../assets/logo.svg';
 
 const Tasks = (): Component => {
   return (
-    <div className='App'>
-      <header className='App-header'>
+    <PageWrapper>
+      <div className='page-content'>
         <img src={logo} className='App-logo' alt='logo' />
         <a
           className='App-link'
@@ -15,8 +16,8 @@ const Tasks = (): Component => {
         >
           Tasks
         </a>
-      </header>
-    </div>
+      </div>
+    </PageWrapper>
   );
 };
 

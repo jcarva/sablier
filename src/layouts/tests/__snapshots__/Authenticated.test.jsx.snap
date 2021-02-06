@@ -2,11 +2,7 @@
 
 exports[`Authenticated [snapshot] 1`] = `
 <div
-  style={
-    Object {
-      "height": "100%",
-    }
-  }
+  className="MuiBox-root MuiBox-root-2 Styled(MuiBox)-root-1"
 >
   <div
     className="header"
@@ -19,13 +15,7 @@ exports[`Authenticated [snapshot] 1`] = `
     Sidebar
   </div>
   <div
-    style={
-      Object {
-        "height": "100%",
-        "paddingLeft": "70px",
-        "paddingTop": "60px",
-      }
-    }
+    className="MuiBox-root MuiBox-root-4 Styled(MuiBox)-root-3"
   />
 </div>
 `;
