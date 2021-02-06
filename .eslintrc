@@ -18,10 +18,12 @@
     "browser": true
   },
   "rules": {
+    "import/prefer-default-export": 0,
+    "react/jsx-one-expression-per-line": 0,
     "react/require-default-props": 0,
     "react/default-props-match-prop-types": 0,
+    "react/jsx-uses-react": 0,
     "react/react-in-jsx-scope": 0,
-    "import/prefer-default-export": 0,
     "react-hooks/rules-of-hooks": 0,
     "react-hooks/exhaustive-deps": 0
   }
