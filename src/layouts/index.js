@@ -1,4 +1,4 @@
-import Authenticated from './authenticated/Authenticated';
-import Unauthenticated from './unauthenticated/Unauthenticated';
+import Authenticated from './Authenticated';
+import Unauthenticated from './Unauthenticated';
 
 export { Authenticated, Unauthenticated };

@@ -1,0 +1,31 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Authenticated [snapshot] 1`] = `
+<div
+  style={
+    Object {
+      "height": "100%",
+    }
+  }
+>
+  <div
+    className="header"
+  >
+    Header
+  </div>
+  <div
+    className="sidebar"
+  >
+    Sidebar
+  </div>
+  <div
+    style={
+      Object {
+        "height": "100%",
+        "paddingLeft": "70px",
+        "paddingTop": "60px",
+      }
+    }
+  />
+</div>
+`;
