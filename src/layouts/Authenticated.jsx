@@ -1,8 +1,8 @@
 /* @flow */
 import { Outlet } from 'react-router-dom';
-import Header from '../../components/navigation/header/Header';
-import Sidebar from '../../components/navigation/sidebar/Sidebar';
-import { type Component } from '../../types';
+import Header from '../components/navigation/header/Header';
+import Sidebar from '../components/navigation/sidebar/Sidebar';
+import { type Component } from '../types';
 
 const Authenticated = (): Component => {
   return (
