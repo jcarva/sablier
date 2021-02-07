@@ -1,7 +1,7 @@
 /* @flow */
 import { BrowserRouter, useRoutes } from 'react-router-dom';
 import routes from './index';
-import { type Component } from '../types';
+import type { Component } from '../types';
 
 const Routes = (): Component => useRoutes(routes);
 

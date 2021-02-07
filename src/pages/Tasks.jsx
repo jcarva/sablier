@@ -1,6 +1,6 @@
 /* @flow */
 import { PageWrapper } from './common';
-import { type Component } from '../types';
+import type { Component } from '../types';
 import logo from '../assets/logo.svg';
 
 const Tasks = (): Component => {

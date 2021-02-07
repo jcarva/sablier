@@ -1,5 +1,5 @@
 /* @flow */
-import { type Component } from '../types';
+import type { Component } from '../types';
 import logo from '../assets/logo.svg';
 import { PageWrapper } from './common';
 

@@ -1,16 +1,10 @@
 /* @flow */
-import renderer from 'react-test-renderer';
-import { ThemeProvider } from '@material-ui/core';
+import { render } from '@testing-library/react';
 import Unauthenticated from '../Unauthenticated';
-import theme from '../../theme';
 
 describe('Unauthenticated', () => {
   it('[snapshot]', () => {
-    const tree = (
-      <ThemeProvider theme={theme}>
-        <Unauthenticated />
-      </ThemeProvider>
-    );
-    expect(renderer.create(tree).toJSON()).toMatchSnapshot();
+    const { container } = render(<Unauthenticated />);
+    expect(container.firstChild).toMatchSnapshot();
   });
 });
